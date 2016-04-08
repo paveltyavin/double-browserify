@@ -6,8 +6,8 @@ var wrap = require('gulp-wrap');
 
 gulp.task('b1', function () {
   var b1 = browserify({
-    entries: './b1.js',
-    standalone: 'b1'
+    entries: './b1.js'
+    //standalone: 'b1'
   });
 
   return b1
